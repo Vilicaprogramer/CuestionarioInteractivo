@@ -1,0 +1,225 @@
+{
+    "preguntas": [
+        {
+            "numero": 1,
+            "pregunta": "¿Qué lenguaje de programación se utiliza principalmente para desarrollo web del lado del cliente?",
+            "opciones": [
+                "A. Python",
+                "B. JavaScript",
+                "C. Java",
+                "D. C++"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 2,
+            "pregunta": "¿Qué estructura de datos utiliza el principio FIFO?",
+            "opciones": [
+                "A. Pila",
+                "B. Cola",
+                "C. Árbol",
+                "D. Grafo"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 3,
+            "pregunta": "¿Qué significa HTML?",
+            "opciones": [
+                "A. HyperText Markup Language",
+                "B. Hyper Transfer Machine Language",
+                "C. HighText Modern Language",
+                "D. Hyper Tool Mark Language"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 4,
+            "pregunta": "¿Cuál de estos lenguajes es tipado dinámicamente?",
+            "opciones": [
+                "A. C",
+                "B. Java",
+                "C. Python",
+                "D. C++"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 5,
+            "pregunta": "¿Qué simboliza el operador '==' en muchos lenguajes?",
+            "opciones": [
+                "A. Asignación",
+                "B. Concatenación",
+                "C. Comparación",
+                "D. División"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 6,
+            "pregunta": "¿Qué es una función en programación?",
+            "opciones": [
+                "A. Una variable",
+                "B. Un bucle",
+                "C. Un conjunto de instrucciones reutilizables",
+                "D. Una constante"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 7,
+            "pregunta": "¿Cuál es la salida de print(len('Hola')) en Python?",
+            "opciones": [
+                "A. 3",
+                "B. 4",
+                "C. 5",
+                "D. Error"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 8,
+            "pregunta": "¿Cuál es la extensión típica de un archivo Python?",
+            "opciones": [
+                "A. .txt",
+                "B. .java",
+                "C. .py",
+                "D. .js"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 9,
+            "pregunta": "¿Qué estructura permite repetir un bloque de código mientras una condición sea verdadera?",
+            "opciones": [
+                "A. if",
+                "B. while",
+                "C. switch",
+                "D. def"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 10,
+            "pregunta": "¿Cuál es el resultado de 3 + 2 * 2 en Python?",
+            "opciones": [
+                "A. 10",
+                "B. 7",
+                "C. 9",
+                "D. 8"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 11,
+            "pregunta": "¿Qué comando imprime algo en la consola en Python?",
+            "opciones": [
+                "A. echo",
+                "B. print",
+                "C. write",
+                "D. cout"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 12,
+            "pregunta": "¿Qué significa IDE en el contexto de programación?",
+            "opciones": [
+                "A. Interface Development Environment",
+                "B. Integrated Development Environment",
+                "C. Internal Data Executor",
+                "D. Independent Debugger Emulator"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 13,
+            "pregunta": "¿Cuál de los siguientes no es un tipo de dato en Python?",
+            "opciones": [
+                "A. int",
+                "B. string",
+                "C. float",
+                "D. char"
+            ],
+            "respuesta_correcta": "D"
+        },
+        {
+            "numero": 14,
+            "pregunta": "¿Qué instrucción se usa para iniciar un bucle en Python?",
+            "opciones": [
+                "A. loop",
+                "B. repeat",
+                "C. for",
+                "D. iterate"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 15,
+            "pregunta": "¿Cuál es la forma correcta de iniciar una función en Python?",
+            "opciones": [
+                "A. function miFuncion()",
+                "B. def miFuncion():",
+                "C. func miFuncion()",
+                "D. define miFuncion()"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 16,
+            "pregunta": "¿Qué operador se usa para la división entera en Python?",
+            "opciones": [
+                "A. /",
+                "B. %",
+                "C. //",
+                "D. div"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 17,
+            "pregunta": "¿Qué librería se usa comúnmente en Python para análisis de datos?",
+            "opciones": [
+                "A. pandas",
+                "B. flask",
+                "C. pygame",
+                "D. numpy"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 18,
+            "pregunta": "¿Qué valor booleano representa falso en Python?",
+            "opciones": [
+                "A. 0",
+                "B. None",
+                "C. False",
+                "D. Null"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 19,
+            "pregunta": "¿Cómo se indica un comentario de una sola línea en Python?",
+            "opciones": [
+                "A. //",
+                "B. /**/",
+                "C. #",
+                "D. <!-- -->"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 20,
+            "pregunta": "¿Cuál es el índice del primer elemento en una lista en Python?",
+            "opciones": [
+                "A. 1",
+                "B. 0",
+                "C. -1",
+                "D. depende del contenido"
+            ],
+            "respuesta_correcta": "B"
+        }
+    ],
+    "ranking": []
+}
