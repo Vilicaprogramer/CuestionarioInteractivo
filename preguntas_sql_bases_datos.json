@@ -1,0 +1,225 @@
+{
+    "preguntas": [
+        {
+            "numero": 1,
+            "pregunta": "¿Qué comando se utiliza para seleccionar datos en SQL?",
+            "opciones": [
+                "A. GET",
+                "B. SELECT",
+                "C. CHOOSE",
+                "D. PICK"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 2,
+            "pregunta": "¿Qué tipo de JOIN devuelve todas las filas cuando hay una coincidencia en una de las tablas?",
+            "opciones": [
+                "A. INNER JOIN",
+                "B. LEFT JOIN",
+                "C. RIGHT JOIN",
+                "D. FULL OUTER JOIN"
+            ],
+            "respuesta_correcta": "D"
+        },
+        {
+            "numero": 3,
+            "pregunta": "¿Qué comando SQL se usa para eliminar una tabla?",
+            "opciones": [
+                "A. REMOVE",
+                "B. DELETE",
+                "C. DROP",
+                "D. ERASE"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 4,
+            "pregunta": "¿Cuál es la clave primaria de una tabla?",
+            "opciones": [
+                "A. Un valor único por fila",
+                "B. Una clave externa",
+                "C. Una columna con nombres",
+                "D. Un índice duplicado"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 5,
+            "pregunta": "¿Qué comando se usa para insertar datos en una tabla?",
+            "opciones": [
+                "A. UPDATE",
+                "B. INSERT INTO",
+                "C. ADD",
+                "D. MERGE"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 6,
+            "pregunta": "¿Qué comando se usa para modificar una tabla existente?",
+            "opciones": [
+                "A. CHANGE",
+                "B. UPDATE",
+                "C. ALTER TABLE",
+                "D. MODIFY"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 7,
+            "pregunta": "¿Qué es un índice en bases de datos?",
+            "opciones": [
+                "A. Una tabla secundaria",
+                "B. Una vista",
+                "C. Un acceso rápido a los datos",
+                "D. Un trigger"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 8,
+            "pregunta": "¿Qué es una vista en SQL?",
+            "opciones": [
+                "A. Un backup",
+                "B. Una tabla temporal",
+                "C. Una consulta almacenada",
+                "D. Una función"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 9,
+            "pregunta": "¿Qué palabra clave se usa para evitar duplicados en una consulta?",
+            "opciones": [
+                "A. DISTINCT",
+                "B. UNIQUE",
+                "C. ONLY",
+                "D. FILTER"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 10,
+            "pregunta": "¿Qué función cuenta el número de registros en SQL?",
+            "opciones": [
+                "A. TOTAL()",
+                "B. SUM()",
+                "C. COUNT()",
+                "D. LENGTH()"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 11,
+            "pregunta": "¿Qué es una clave foránea?",
+            "opciones": [
+                "A. Una clave única",
+                "B. Una clave que conecta dos tablas",
+                "C. Una clave interna",
+                "D. Un índice no primario"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 12,
+            "pregunta": "¿Qué comando elimina todas las filas de una tabla sin eliminar la tabla?",
+            "opciones": [
+                "A. DELETE",
+                "B. REMOVE",
+                "C. DROP",
+                "D. TRUNCATE"
+            ],
+            "respuesta_correcta": "D"
+        },
+        {
+            "numero": 13,
+            "pregunta": "¿Qué tipo de dato almacena texto en SQL?",
+            "opciones": [
+                "A. INT",
+                "B. VARCHAR",
+                "C. DATE",
+                "D. FLOAT"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 14,
+            "pregunta": "¿Qué operador lógico se usa para múltiples condiciones en SQL?",
+            "opciones": [
+                "A. IF",
+                "B. OR",
+                "C. AND",
+                "D. XOR"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 15,
+            "pregunta": "¿Qué comando se usa para actualizar registros en SQL?",
+            "opciones": [
+                "A. CHANGE",
+                "B. UPDATE",
+                "C. MODIFY",
+                "D. SET"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 16,
+            "pregunta": "¿Qué es un trigger en una base de datos?",
+            "opciones": [
+                "A. Un error",
+                "B. Una restricción",
+                "C. Un evento automático",
+                "D. Un backup"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 17,
+            "pregunta": "¿Qué comando crea una nueva base de datos?",
+            "opciones": [
+                "A. MAKE DATABASE",
+                "B. INIT DB",
+                "C. CREATE DATABASE",
+                "D. START DATABASE"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 18,
+            "pregunta": "¿Qué es normalización en bases de datos?",
+            "opciones": [
+                "A. Eliminar redundancia",
+                "B. Crear índices",
+                "C. Renombrar columnas",
+                "D. Generar claves primarias"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 19,
+            "pregunta": "¿Qué función SQL devuelve la suma total de una columna?",
+            "opciones": [
+                "A. ADD()",
+                "B. TOTAL()",
+                "C. SUM()",
+                "D. AGG()"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 20,
+            "pregunta": "¿Cuál es el resultado de 'SELECT NOW();' en MySQL?",
+            "opciones": [
+                "A. Fecha actual",
+                "B. Nombre de usuario",
+                "C. Versión del servidor",
+                "D. Base de datos activa"
+            ],
+            "respuesta_correcta": "A"
+        }
+    ],
+    "ranking": []
+}

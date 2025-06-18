@@ -221,5 +221,42 @@
             "respuesta_correcta": "B"
         }
     ],
-    "ranking": []
+    "ranking": [
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        },
+        {
+            "nombre": "Carlos",
+            "puntuacion": 18
+        }
+    ]
 }

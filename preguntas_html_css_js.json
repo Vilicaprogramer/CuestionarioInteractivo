@@ -1,0 +1,225 @@
+{
+    "preguntas": [
+        {
+            "numero": 1,
+            "pregunta": "¿Qué etiqueta se usa para definir un párrafo en HTML?",
+            "opciones": [
+                "A. <p>",
+                "B. <para>",
+                "C. <text>",
+                "D. <pr>"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 2,
+            "pregunta": "¿Qué propiedad CSS se utiliza para cambiar el fondo?",
+            "opciones": [
+                "A. background-color",
+                "B. color",
+                "C. font-style",
+                "D. padding"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 3,
+            "pregunta": "¿Qué lenguaje se ejecuta en el navegador para interactividad?",
+            "opciones": [
+                "A. Python",
+                "B. PHP",
+                "C. JavaScript",
+                "D. Ruby"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 4,
+            "pregunta": "¿Qué propiedad CSS alinea el texto al centro?",
+            "opciones": [
+                "A. text-style",
+                "B. align",
+                "C. text-align",
+                "D. center"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 5,
+            "pregunta": "¿Qué atributo HTML se usa para enlaces?",
+            "opciones": [
+                "A. href",
+                "B. link",
+                "C. src",
+                "D. ref"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 6,
+            "pregunta": "¿Cuál es el archivo principal de estilos en un proyecto web?",
+            "opciones": [
+                "A. script.js",
+                "B. main.css",
+                "C. index.html",
+                "D. layout.txt"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 7,
+            "pregunta": "¿Qué etiqueta HTML se usa para insertar JavaScript?",
+            "opciones": [
+                "A. <js>",
+                "B. <script>",
+                "C. <javascript>",
+                "D. <code>"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 8,
+            "pregunta": "¿Cómo se comenta una línea en JavaScript?",
+            "opciones": [
+                "A. <!-- -->",
+                "B. /* */",
+                "C. //",
+                "D. ##"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 9,
+            "pregunta": "¿Qué método muestra un mensaje emergente?",
+            "opciones": [
+                "A. alert()",
+                "B. log()",
+                "C. prompt()",
+                "D. notify()"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 10,
+            "pregunta": "¿Qué propiedad CSS cambia el tamaño del texto?",
+            "opciones": [
+                "A. text-size",
+                "B. font-size",
+                "C. size",
+                "D. letter-size"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 11,
+            "pregunta": "¿Qué evento de JS se activa al hacer clic?",
+            "opciones": [
+                "A. onhover",
+                "B. onchange",
+                "C. onclick",
+                "D. onload"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 12,
+            "pregunta": "¿Cómo se define una clase en HTML?",
+            "opciones": [
+                "A. class='nombre'",
+                "B. id='nombre'",
+                "C. tag='nombre'",
+                "D. style='nombre'"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 13,
+            "pregunta": "¿Qué etiqueta define una lista no ordenada?",
+            "opciones": [
+                "A. <ul>",
+                "B. <ol>",
+                "C. <li>",
+                "D. <list>"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 14,
+            "pregunta": "¿Qué símbolo se usa para IDs en CSS?",
+            "opciones": [
+                "A. .",
+                "B. #",
+                "C. @",
+                "D. $"
+            ],
+            "respuesta_correcta": "B"
+        },
+        {
+            "numero": 15,
+            "pregunta": "¿Qué propiedad oculta un elemento?",
+            "opciones": [
+                "A. display: none",
+                "B. hidden: true",
+                "C. visibility: off",
+                "D. opacity: 0"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 16,
+            "pregunta": "¿Qué etiqueta define un encabezado de nivel 1?",
+            "opciones": [
+                "A. <h1>",
+                "B. <head>",
+                "C. <header>",
+                "D. <title>"
+            ],
+            "respuesta_correcta": "A"
+        },
+        {
+            "numero": 17,
+            "pregunta": "¿Cómo se accede a un elemento por ID en JS?",
+            "opciones": [
+                "A. getElementByClass()",
+                "B. getById()",
+                "C. getElementById()",
+                "D. queryId()"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 18,
+            "pregunta": "¿Qué tipo de variable en JS permite cambiar su valor?",
+            "opciones": [
+                "A. const",
+                "B. static",
+                "C. var",
+                "D. define"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 19,
+            "pregunta": "¿Qué formato se usa para archivos de estilos CSS?",
+            "opciones": [
+                "A. .html",
+                "B. .js",
+                "C. .css",
+                "D. .scss"
+            ],
+            "respuesta_correcta": "C"
+        },
+        {
+            "numero": 20,
+            "pregunta": "¿Qué unidad en CSS es relativa al tamaño del texto?",
+            "opciones": [
+                "A. px",
+                "B. em",
+                "C. pt",
+                "D. %"
+            ],
+            "respuesta_correcta": "B"
+        }
+    ],
+    "ranking": []
+}
