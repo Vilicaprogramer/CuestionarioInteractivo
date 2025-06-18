@@ -9,13 +9,13 @@ def preguntar_nombre():
     return input("Cual es tu nombre? ")
 
 def menu_principal():
-    print ('''### MENÚ CUESTIONARIO INTERACTIVO ###
+    print ('''\n### MENÚ CUESTIONARIO INTERACTIVO ###
 1 - Empezar cuestionario
 2 - Ranking (opcional)
 3 - Salir\n''')
     
 def menu_cuestionarios():
-    print('''### ELIGE UNA TEMÁTICA ###
+    print('''\n### ELIGE UNA TEMÁTICA ###
 1 - Programación
 2 - SQL y BBDD
 3 - HTML, CSS, JavaScript
@@ -26,7 +26,7 @@ def menu_cuestionarios():
 def continuar_preguntando():
     while True:
         try:
-            continuar = int(input('''¿QUIERES CONTINUAR?
+            continuar = int(input('''\n¿QUIERES CONTINUAR?
                                 1 - Para continuar    2 - Para salir:\t   '''))
             if continuar == 1:
                 return True
@@ -46,28 +46,26 @@ def empieza_cuestionario(cuestionario):
         try:
             preguntas_hechas = []
             num_aleatorio = randint(1,20)
-            if num_aleatorio not in preguntas_hechas:   
+            if num_aleatorio not in preguntas_hechas: 
+                preguntas_hechas.append(num_aleatorio)  
                 for pregunta in preguntas["preguntas"]:
                     if pregunta["numero"] == num_aleatorio:
                         print(pregunta["pregunta"])
                         for opcion in pregunta["opciones"]:
                             print(opcion)
-
+                        
                         print()
                         repuesta = input("¿Cual es tu respuesta?: ").upper()
                         print()
+
                         if repuesta == pregunta['respuesta_correcta']:
                             print('¡¡¡CORRECTO!!!')
                             puntuacion += 10
-                            continuar = int(input("1 para continuar 2 para salir: \t"))
-                            print()
-                            if continuar == True:
-                                continue
-                            else:
-                                cambio_de_tema = False
+                            cambio_de_tema = continuar_preguntando()
                         else:
                             print(f"Respuesta correcta: {pregunta['respuesta_correcta']}")
                             print()
+                            cambio_de_tema = continuar_preguntando()
                 else:
                     continue
         except:
@@ -88,4 +86,15 @@ def guardar_ranking(nombre, puntuacion):
 
 
 def mostrar_ranking():
-    pass
+    with open("ranking.json", "r", encoding="utf-8") as archivo:
+        ranking = json.load(archivo)
+
+    ranking_lista = []
+    for persona in ranking['ranking']:
+        ranking_lista.append((persona['nombre'], persona['puntuacion']))
+
+    ranking_lista = sorted(ranking_lista, key= lambda item: item[1], reverse=True)
+
+    for n, p in ranking_lista:
+        print(f'{n:<10} --> {p:>5} puntos')
+    print()

@@ -7,6 +7,14 @@
         {
             "nombre": "Rober",
             "puntuacion": 40
+        },
+        {
+            "nombre": "Segismundo",
+            "puntuacion": 70
+        },
+        {
+            "nombre": "Amelia L.",
+            "puntuacion": 80
         }
     ]
 }
