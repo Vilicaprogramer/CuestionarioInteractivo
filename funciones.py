@@ -41,6 +41,9 @@ def empieza_cuestionario(cuestionario):
         preguntas = json.load(archivo)
     
     puntuacion = 0
+    num_preguntas = 0
+    aciertos = 0
+    fallos = 0
     cambio_de_tema = True
     while cambio_de_tema:
         try:
@@ -60,24 +63,33 @@ def empieza_cuestionario(cuestionario):
 
                         if repuesta == pregunta['respuesta_correcta']:
                             print('¡¡¡CORRECTO!!!')
+                            num_preguntas += 1
+                            aciertos += 1
                             puntuacion += 10
                             cambio_de_tema = continuar_preguntando()
                         else:
+                            num_preguntas += 1
+                            fallos += 1
                             print(f"Respuesta correcta: {pregunta['respuesta_correcta']}")
                             print()
                             cambio_de_tema = continuar_preguntando()
-                else:
-                    continue
+            else:
+                continue
         except:
             print("Opción incorrecta, intentalo de nuevo: ")
        
-    return puntuacion
+    return puntuacion, num_preguntas, aciertos, fallos
 
 
 def guardar_ranking(nombre, puntuacion):
     with open("ranking.json", "r", encoding="utf-8") as f:
         datos = json.load(f)
     nueva_puntuacion = {"nombre": nombre, "puntuacion": puntuacion}
+    
+    for ranking in range(len(datos['ranking'])):
+        if nombre in datos['ranking'][ranking]['nombre']:
+            del datos['ranking'][ranking]
+            break
 
     datos["ranking"].append(nueva_puntuacion)
 
@@ -98,3 +110,13 @@ def mostrar_ranking():
     for n, p in ranking_lista:
         print(f'{n:<10} --> {p:>5} puntos')
     print()
+
+def valoracion_final(valoracion):
+    if valoracion < 50:
+        print('Tienes que estudiar más.')
+    elif valoracion < 70:
+        print('¡Buen trabajo! Un poco más de estudio y ya lo tienes')
+    elif valoracion < 100:
+        print('¡Muy bien! Lo tienes')
+    else:
+        print('¡Abusón! Tendrémos que buscar preguntas más dificiles para ti.')

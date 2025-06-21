@@ -1,10 +1,6 @@
 {
     "ranking": [
         {
-            "nombre": "Vicen",
-            "puntuacion": 30
-        },
-        {
             "nombre": "Rober",
             "puntuacion": 40
         },
@@ -15,6 +11,10 @@
         {
             "nombre": "Amelia L.",
             "puntuacion": 80
+        },
+        {
+            "nombre": "Vicen",
+            "puntuacion": 140
         }
     ]
 }
