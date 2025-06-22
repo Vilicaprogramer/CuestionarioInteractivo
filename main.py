@@ -48,10 +48,10 @@ while opcion != 3:
             
             porcentaje = round((aciertos/num_preguntas)*100,2)
             print(f'''\nTu puntuación ha sido de {puntuacion} puntos.
-    Número total de pregunatas realizadas {num_preguntas}.
-    Número de aciertos: {aciertos}.
-    Número de fallos: {fallos}.
-    Porcentaje total de aciertos: {porcentaje}%.''')
+Número total de pregunatas realizadas {num_preguntas}.
+Número de aciertos: {aciertos}.
+Número de fallos: {fallos}.
+Porcentaje total de aciertos: {porcentaje}%.''')
             valoracion_final(porcentaje) 
             guardar_ranking(nombre, puntuacion)   
         elif opcion == 2:

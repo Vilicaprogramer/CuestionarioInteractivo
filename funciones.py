@@ -6,7 +6,7 @@ def bienvenida():
     print("BIENVENIDO AL CUESTIONARIO INTERACTIVO")
 
 def preguntar_nombre():
-    return input("Cual es tu nombre? ")
+    return input("¿Cual es tu nombre? ")
 
 def menu_principal():
     print ('''\n### MENÚ CUESTIONARIO INTERACTIVO ###
@@ -117,6 +117,6 @@ def valoracion_final(valoracion):
     elif valoracion < 70:
         print('¡Buen trabajo! Un poco más de estudio y ya lo tienes')
     elif valoracion < 100:
-        print('¡Muy bien! Lo tienes')
+        print('¡Muy bien! Ya lo tienes!')
     else:
         print('¡Abusón! Tendrémos que buscar preguntas más dificiles para ti.')
