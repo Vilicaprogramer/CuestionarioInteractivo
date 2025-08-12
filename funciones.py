@@ -11,7 +11,7 @@ def preguntar_nombre():
 def menu_principal():
     print ('''\n### MENÚ CUESTIONARIO INTERACTIVO ###
 1 - Empezar cuestionario
-2 - Ranking (opcional)
+2 - Ranking
 3 - Salir\n''')
     
 def menu_cuestionarios():
