@@ -38,8 +38,8 @@ Construir un cuestionario por consola con menú, preguntas por temas, correcció
 
 ```bash
 # Clona el repo
-git clone https://github.com/USUARIO/REPO.git
-cd REPO
+git clone https://github.com/Vilicaprogramer/CuestionarioInteractivo.git
+cd CuestionarioInteractivo
 
 # Ejecuta el programa
 python main.py
